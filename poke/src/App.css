@@ -1,0 +1,53 @@
+.header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-bottom: 1px solid yellow;
+height: 70px;
+}
+.icon{
+width: 60px;
+height: 60px;
+}
+.footer{
+border-bottom: 1px solid yellow;
+height: 50px;
+text-align: center;
+}
+.nombre{
+    font-size: x-large;
+    color: black;
+    font-weight: bold;
+    padding: 10px; /* Espaciado interno del nombre */
+    border-radius: 3px; /* Bordes redondeados del nombre */
+}
+.imagen{
+width: 300px;
+height: 300px;
+background-size: cover;
+background-position: center;
+padding: 10px; /* Espaciado interno de la carta */
+border-radius: 5px; /* Bordes redondeados de la carta */
+}
+.container {
+    display: flex;
+    grid-template-columns: auto 1fr; /* La imagen ocupa el ancho necesario y el nombre ocupa el espacio restante */
+    align-items: center;
+    gap: 150px; /* Espacio entre la imagen y el nombre */
+    padding: 10px;
+  }
+  .poke{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 20px;
+background-color: aliceblue;
+  }
+.imagen2{
+  width: 400px;
+height: 400px;
+}
+ .imagen3{
+  width: 350px;
+height: 350px;
+ }
